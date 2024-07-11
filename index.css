@@ -1,0 +1,34 @@
+:root {
+  --primary-color: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
+  --secondary-color: rgba(243, 244, 246, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-color {
+  background-image: var(--primary-color);
+}
+
+.primary-button {
+  background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+  padding: 16px 28px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.primary-border {
+  background-image: var(--primary-color);
+  height: 4px;
+  border-radius: 4px;
+  width: 250px;
+}
+
+.secondary-background {
+  background-color: var(--secondary-color);
+}
